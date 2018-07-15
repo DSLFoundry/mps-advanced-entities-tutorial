@@ -8,8 +8,8 @@
   </languages>
   <imports>
     <import index="yv47" ref="r:da65683e-ff6f-430d-ab68-32a77df72c93(org.iets3.core.expr.toplevel.structure)" />
+    <import index="hm2y" ref="r:66e07cb4-a4b0-4bf3-a36d-5e9ed1ff1bd3(org.iets3.core.expr.base.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="hm2y" ref="r:66e07cb4-a4b0-4bf3-a36d-5e9ed1ff1bd3(org.iets3.core.expr.base.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -53,7 +53,7 @@
   <node concept="1TIwiD" id="62UF6yX6kaZ">
     <property role="TrG5h" value="EntityDeclaration" />
     <property role="EcuMT" value="6970072939158389439" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" to="yv47:7zXSNv$jGoK" resolve="AbstractTypeDeclaration" />
     <node concept="1TJgyj" id="62UF6yX6kb5" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20lbJX" value="0..n" />
@@ -67,8 +67,8 @@
     <node concept="PrWs8" id="62UF6yX6kba" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-    <node concept="PrWs8" id="6fSD8CwsK4q" role="PzmwI">
-      <ref role="PrY4T" to="yv47:2uR5X5ayM7T" resolve="IToplevelExprContent" />
+    <node concept="PrWs8" id="5mrwoJG83PQ" role="PzmwI">
+      <ref role="PrY4T" to="yv47:xu7xcKinTJ" resolve="IRecordDeclaration" />
     </node>
   </node>
   <node concept="1TIwiD" id="62UF6yX6kb0">
