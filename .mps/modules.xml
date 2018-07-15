@@ -3,6 +3,7 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/NewLanguage/AdvancedEntities.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/TestAdvancedEntities/TestAdvancedEntities.msd" folder="" />
     </projectModules>
   </component>
 </project>
