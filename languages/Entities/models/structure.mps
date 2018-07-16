@@ -53,7 +53,7 @@
   <node concept="1TIwiD" id="62UF6yX6kaZ">
     <property role="TrG5h" value="EntityDeclaration" />
     <property role="EcuMT" value="6970072939158389439" />
-    <ref role="1TJDcQ" to="yv47:7zXSNv$jGoK" resolve="AbstractTypeDeclaration" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="62UF6yX6kb5" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20lbJX" value="0..n" />
@@ -67,7 +67,7 @@
     <node concept="PrWs8" id="62UF6yX6kba" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-    <node concept="PrWs8" id="5mrwoJG83PQ" role="PzmwI">
+    <node concept="PrWs8" id="5mrwoJGbnrJ" role="PzmwI">
       <ref role="PrY4T" to="yv47:xu7xcKinTJ" resolve="IRecordDeclaration" />
     </node>
   </node>
@@ -184,9 +184,6 @@
       <property role="IQ2ns" value="6970072939158394100" />
       <ref role="20lvS9" node="62UF6yX6kb0" resolve="AttributeDeclaration" />
     </node>
-    <node concept="PrWs8" id="6fSD8CwsQFk" role="PzmwI">
-      <ref role="PrY4T" to="hm2y:7NJy08a3O9a" resolve="IDotTarget" />
-    </node>
   </node>
   <node concept="1TIwiD" id="62UF6yX6ljQ">
     <property role="TrG5h" value="Value" />
@@ -242,6 +239,24 @@
     </node>
     <node concept="PrWs8" id="6fSD8CwsQcq" role="PzmwI">
       <ref role="PrY4T" node="62UF6yX6kb2" resolve="IModuleContent" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5mrwoJG9Rd9">
+    <property role="EcuMT" value="6168666552576471881" />
+    <property role="TrG5h" value="AttributeInstanceRef" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5mrwoJG9Rdf" role="1TKVEi">
+      <property role="IQ2ns" value="6168666552576471887" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="target" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="62UF6yX6ljN" resolve="AttributeInstance" />
+    </node>
+    <node concept="PrWs8" id="5mrwoJGbHxK" role="PzmwI">
+      <ref role="PrY4T" to="hm2y:7NJy08a3O9a" resolve="IDotTarget" />
+    </node>
+    <node concept="PrWs8" id="5mrwoJGbVEd" role="PzmwI">
+      <ref role="PrY4T" to="hm2y:6rGLT0TevEL" resolve="IRef" />
     </node>
   </node>
 </model>

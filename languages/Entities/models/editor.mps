@@ -15,6 +15,7 @@
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
       </concept>
+      <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1237307900041" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem" flags="ln" index="lj46D" />
       <concept id="1237375020029" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineChildrenStyleClassItem" flags="ln" index="pj6Ft" />
@@ -258,8 +259,31 @@
   </node>
   <node concept="24kQdi" id="6fSD8CwsK4h">
     <ref role="1XX52x" to="f7ej:6fSD8CwsK2V" resolve="TestExpression" />
-    <node concept="3F1sOY" id="6fSD8CwsK4j" role="2wV5jI">
-      <ref role="1NtTu8" to="f7ej:6fSD8CwsK3X" resolve="expr" />
+    <node concept="3EZMnI" id="5mrwoJG9B7A" role="2wV5jI">
+      <node concept="2iRfu4" id="5mrwoJG9B7B" role="2iSdaV" />
+      <node concept="3F0ifn" id="5mrwoJG9B81" role="3EZMnx">
+        <property role="3F0ifm" value="test:" />
+      </node>
+      <node concept="3F1sOY" id="6fSD8CwsK4j" role="3EZMnx">
+        <ref role="1NtTu8" to="f7ej:6fSD8CwsK3X" resolve="expr" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="5mrwoJG9Rds">
+    <ref role="1XX52x" to="f7ej:5mrwoJG9Rd9" resolve="AttributeInstanceRef" />
+    <node concept="1iCGBv" id="5mrwoJG9Rdu" role="2wV5jI">
+      <ref role="1NtTu8" to="f7ej:5mrwoJG9Rdf" resolve="target" />
+      <node concept="1sVBvm" id="5mrwoJG9Rdw" role="1sWHZn">
+        <node concept="1iCGBv" id="5mrwoJG9Ree" role="2wV5jI">
+          <ref role="1NtTu8" to="f7ej:62UF6yX6ljO" resolve="decl" />
+          <node concept="1sVBvm" id="5mrwoJG9Reg" role="1sWHZn">
+            <node concept="3F0A7n" id="5mrwoJGbJV3" role="2wV5jI">
+              <property role="1Intyy" value="true" />
+              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>

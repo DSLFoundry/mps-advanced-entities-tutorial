@@ -27,6 +27,9 @@
   </imports>
   <registry>
     <language id="0dffd3a6-a8cc-43b4-97a7-83da2ea704a1" name="Entities">
+      <concept id="6168666552576471881" name="Entities.structure.AttributeInstanceRef" flags="ng" index="2TJfb2">
+        <reference id="6168666552576471887" name="target" index="2TJfb4" />
+      </concept>
       <concept id="7203688517135958203" name="Entities.structure.TestExpression" flags="ng" index="13yUgL">
         <child id="7203688517135958269" name="expr" index="13yUhR" />
       </concept>
@@ -66,7 +69,6 @@
       <concept id="5115872837156802409" name="org.iets3.core.expr.base.structure.UnaryExpression" flags="ng" index="30czhk">
         <child id="5115872837156802411" name="expr" index="30czhm" />
       </concept>
-      <concept id="9002563722476995146" name="org.iets3.core.expr.base.structure.IDotTarget" flags="ng" index="1QScD8" />
       <concept id="9002563722476995145" name="org.iets3.core.expr.base.structure.DotExpression" flags="ng" index="1QScDb">
         <child id="9002563722476995147" name="target" index="1QScD9" />
       </concept>
@@ -167,7 +169,7 @@
       </node>
     </node>
     <node concept="3tCZy3" id="6fSD8Cwo90A" role="3tCYUS">
-      <property role="TrG5h" value="Eugen" />
+      <property role="TrG5h" value="EugenPersonalData" />
       <ref role="3tCZy4" node="62UF6yX6kkh" resolve="Person" />
       <node concept="3tCZyr" id="6fSD8Cwo90C" role="3tCZy6">
         <ref role="3tCZys" node="62UF6yX6kkj" resolve="name" />
@@ -189,7 +191,7 @@
       </node>
     </node>
     <node concept="3tCZy3" id="62UF6yX6K7c" role="3tCYUS">
-      <property role="TrG5h" value="Eugen" />
+      <property role="TrG5h" value="EugenEmployeeData" />
       <ref role="3tCZy4" node="62UF6yX6l83" resolve="Employee" />
       <node concept="3tCZyr" id="62UF6yX6QY7" role="3tCZy6">
         <ref role="3tCZys" node="62UF6yX6l89" resolve="number" />
@@ -200,16 +202,18 @@
       <node concept="3tCZyr" id="62UF6yX6QYa" role="3tCZy6">
         <ref role="3tCZys" node="62UF6yX6ljv" resolve="personalData" />
         <node concept="3tCZy3" id="62UF6yX6QYc" role="3tC4X0">
-          <property role="TrG5h" value="Eugen" />
+          <property role="TrG5h" value="EugenVal" />
           <ref role="3tCZy4" node="62UF6yX6kkh" resolve="Person" />
         </node>
       </node>
     </node>
-    <node concept="13yUgL" id="6fSD8CwsSES" role="3tCYUS">
-      <node concept="1QScDb" id="6fSD8CwsSGP" role="13yUhR">
-        <node concept="1QScD8" id="6fSD8CwsSGQ" role="1QScD9" />
-        <node concept="13AG4_" id="6fSD8CwsSFG" role="30czhm">
-          <ref role="13AG4U" node="62UF6yX6QYc" resolve="Eugen" />
+    <node concept="13yUgL" id="5mrwoJG9NBh" role="3tCYUS">
+      <node concept="1QScDb" id="5mrwoJGbVCt" role="13yUhR">
+        <node concept="13AG4_" id="5mrwoJGbVCo" role="30czhm">
+          <ref role="13AG4U" node="6fSD8Cwo90A" resolve="EugenPersonalData" />
+        </node>
+        <node concept="2TJfb2" id="5mrwoJGbY57" role="1QScD9">
+          <ref role="2TJfb4" node="6fSD8CwoGqD" />
         </node>
       </node>
     </node>
