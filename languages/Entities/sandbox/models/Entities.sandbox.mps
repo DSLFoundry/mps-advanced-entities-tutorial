@@ -60,7 +60,9 @@
       <concept id="5115872837156802409" name="org.iets3.core.expr.base.structure.UnaryExpression" flags="ng" index="30czhk">
         <child id="5115872837156802411" name="expr" index="30czhm" />
       </concept>
-      <concept id="5115872837156578546" name="org.iets3.core.expr.base.structure.PlusExpression" flags="ng" index="30dDZf" />
+      <concept id="5115872837156802410" name="org.iets3.core.expr.base.structure.LogicalNotExpression" flags="ng" index="30czhn" />
+      <concept id="5115872837156687890" name="org.iets3.core.expr.base.structure.LessExpression" flags="ng" index="30d6GJ" />
+      <concept id="5115872837156724025" name="org.iets3.core.expr.base.structure.LogicalAndExpression" flags="ng" index="30deo4" />
       <concept id="5115872837156576277" name="org.iets3.core.expr.base.structure.BinaryExpression" flags="ng" index="30dEsC">
         <child id="5115872837156576280" name="right" index="30dEs_" />
         <child id="5115872837156576278" name="left" index="30dEsF" />
@@ -190,11 +192,11 @@
     </node>
     <node concept="2zPypq" id="4QsVTXWNOEn" role="1weIeE">
       <property role="TrG5h" value="y" />
-      <node concept="30dDZf" id="4QsVTXWNOFX" role="2zPyp_">
-        <node concept="Lke9V" id="4QsVTXWNOGm" role="30dEs_">
+      <node concept="30d6GJ" id="2Qsb4pY5l_F" role="2zPyp_">
+        <node concept="Lke9V" id="4QsVTXWNOFQ" role="30dEsF">
           <property role="LkfGG" value="5" />
         </node>
-        <node concept="Lke9V" id="4QsVTXWNOFQ" role="30dEsF">
+        <node concept="Lke9V" id="4QsVTXWNOGm" role="30dEs_">
           <property role="LkfGG" value="5" />
         </node>
       </node>
@@ -230,16 +232,18 @@
       <node concept="1aduha" id="61WTSB9CpMr" role="1ahQXP">
         <node concept="1adJid" id="61WTSB9Cqn6" role="1aduh9">
           <property role="TrG5h" value="bla" />
-          <node concept="1QScDb" id="61WTSB9CMrL" role="1adJii">
-            <node concept="3o_JK" id="61WTSB9CMtV" role="1QScD9">
-              <ref role="3o_JH" node="61WTSB9Cc3W" resolve="membr" />
-            </node>
-            <node concept="1QScDb" id="61WTSB9CMnZ" role="30czhm">
-              <node concept="3o_JK" id="61WTSB9CMpP" role="1QScD9">
-                <ref role="3o_JH" node="61WTSB9CbXZ" resolve="myMember4" />
+          <node concept="30czhn" id="2Qsb4pY4SwY" role="1adJii">
+            <node concept="1QScDb" id="2Qsb4pY4SwZ" role="30czhm">
+              <node concept="1QScDb" id="2Qsb4pY4Sx0" role="30czhm">
+                <node concept="1af_rf" id="61WTSB9CM23" role="30czhm">
+                  <ref role="1afhQb" node="61WTSB9C9zL" resolve="myfun" />
+                </node>
+                <node concept="3o_JK" id="61WTSB9CMpP" role="1QScD9">
+                  <ref role="3o_JH" node="61WTSB9CbXZ" resolve="myMember4" />
+                </node>
               </node>
-              <node concept="1af_rf" id="61WTSB9CM23" role="30czhm">
-                <ref role="1afhQb" node="61WTSB9C9zL" resolve="myfun" />
+              <node concept="3o_JK" id="61WTSB9CMtV" role="1QScD9">
+                <ref role="3o_JH" node="61WTSB9Cc3W" resolve="membr" />
               </node>
             </node>
           </node>
@@ -255,6 +259,25 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="2zPypq" id="2Qsb4pY4Rvg" role="1weIeE">
+      <property role="TrG5h" value="z" />
+      <node concept="30deo4" id="2Qsb4pY4XuR" role="2zPyp_">
+        <node concept="Lkezq" id="2Qsb4pY4Xvf" role="30dEs_" />
+        <node concept="LkeG4" id="2Qsb4pY4RBh" role="30dEsF" />
+      </node>
+    </node>
+    <node concept="2zPypq" id="2Qsb4pY4RZ0" role="1weIeE">
+      <property role="TrG5h" value="zz" />
+      <node concept="Lke9V" id="2Qsb4pY4S7F" role="2zPyp_">
+        <property role="LkfGG" value="7" />
+      </node>
+    </node>
+    <node concept="2zPypq" id="2Qsb4pY4Sgh" role="1weIeE">
+      <property role="TrG5h" value="zzz" />
+      <node concept="Lklt7" id="2Qsb4pY4SoK" role="2zPyp_">
+        <property role="Lklt6" value="nine" />
       </node>
     </node>
   </node>
